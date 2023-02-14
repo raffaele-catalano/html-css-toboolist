@@ -36,6 +36,7 @@ main {
   width: 50%;
   margin: 0 auto;
   padding-left: 40px;
+  padding-bottom: 40px;
   border-radius: 5px;
 }
 
@@ -63,15 +64,20 @@ main section.second {
 }
 
 main section.second div {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  line-height: 40px;
 }
 
 main section.second .new-task {
   display: inline-block;
 }
 
+.arrow {
+  font-size: 30px;
+}
+
 .title-list {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -114,13 +120,13 @@ main section.second .new-task {
 .check {
   color: green;
   border: 1px solid green;
-  border-radius: 50%;
-  padding: 2px;
+  border-radius: 100%;
+  padding: 3px;
 }
 
 .cross {
   color: red;
   border: 1px solid red;
-  border-radius: 50%;
-  padding: 2px;
+  border-radius: 100%;
+  padding: 3px;
 }
