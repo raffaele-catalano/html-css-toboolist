@@ -10,14 +10,11 @@ body {
   background-color: #F6F8F9;
 }
 
-header,main {
-  background-color: white;
-}
-
 /*HEADER*/
 header {
   padding: 10px;
   margin-bottom: 40px;
+  background-color: white;
 }
 
 header .logo-box img {
@@ -35,15 +32,18 @@ header .logo-box #title {
 main {
   width: 50%;
   margin: 0 auto;
-  padding-left: 40px;
-  padding-bottom: 40px;
+}
+
+main section.first {
+  background-color: white;
+  margin-bottom: 5px;
   border-radius: 5px;
 }
 
 main section.first div {
   display: inline-block;
   padding: 10px;
-  margin: 8px 2px 5px 0px;
+  margin: 8px 0px 5px 20px;
   border-radius: 5px;
 }
 
@@ -59,33 +59,36 @@ main section.first .add-section{
 }
 
 main section.second {
+  background-color: white;
   padding-top: 30px;
   line-height: 30px;
+  border-radius: 5px;
 }
 
 main section.second div {
-  margin-bottom: 30px;
+  margin: 8px 2px 20px 20px;
   line-height: 40px;
+  padding-bottom: 15px;
 }
 
 main section.second .new-task {
   display: inline-block;
 }
 
-.arrow {
-  font-size: 30px;
-}
-
-.title-list {
+main section.second .title-list {
   font-size: 30px;
   font-weight: 700;
 }
 
-.content-list {
+main section.second .content {
   font-size: 20px;
 }
 
-.colored {
+main section.second li {
+  list-style: none;
+}
+
+main section.second li .colored {
   padding: 5px;
   border-radius: 10px;
   font-size: 15px;
@@ -93,40 +96,40 @@ main section.second .new-task {
   font-style: bold;
 }
 
-.colored.editorial {
+main section.second li .colored.editorial {
   background-color: #47ADF1;
 }
 
-#goals {
+main section.second li #goals {
   background-color: #9C72E4;
 }
 
-#recruiting {
+main section.second li #recruiting {
   background-color: #64C0A9;
 }
 
-#mobile {
+main section.second li #mobile {
   background-color: #F29E33;
 }
 
-#website {
+main section.second li #website {
   background-color: #D763A0;
 }
 
-#sales {
+main section.second li #sales {
   background-color: #B0C926;
 }
 
-.check {
+main section.second li .check {
   color: green;
   border: 1px solid green;
   border-radius: 100%;
-  padding: 3px;
+  padding: 3px 5px;
 }
 
-.cross {
+main section.second li .cross {
   color: red;
   border: 1px solid red;
   border-radius: 100%;
-  padding: 3px;
+  padding: 3px 5px;
 }
