@@ -1,0 +1,29 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F6F8F9;
+}
+
+header,main {
+  padding: 10px;
+  background-color: white;
+}
+
+/*MAIN*/
+header .logo-box img {
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+header .logo-box #title {
+  font-size: 35px;
+  font-weight: 800;
+  color: #041931;
+}
+
