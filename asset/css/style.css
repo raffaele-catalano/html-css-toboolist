@@ -71,14 +71,18 @@ main section.second .new-task {
 }
 
 .title-list {
-  font-size: larger;
+  font-size: 35px;
   font-weight: 700;
+}
+
+.content-list {
+  font-size: 20px;
 }
 
 .colored {
   padding: 5px;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 15px;
   color: white;
   font-style: bold;
 }
