@@ -43,7 +43,8 @@ main section.first {
 main section.first div {
   display: inline-block;
   padding: 10px;
-  margin: 8px 0px 5px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 5px;
 }
 
@@ -51,11 +52,11 @@ main section.first .add-task{
   background-color: #47ADF1;
   border: 2px solid #47ADF1;
   color: white;
+  margin-left: 20px;
 }
 main section.first .add-section{
   border: 2px solid #CED3D7;
   color: #CED3D7;
-  margin-bottom: 5px;
 }
 
 main section.second {
@@ -63,6 +64,7 @@ main section.second {
   padding-top: 30px;
   line-height: 30px;
   border-radius: 5px;
+  color: #041931;
 }
 
 main section.second div {
