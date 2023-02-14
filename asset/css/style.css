@@ -56,3 +56,67 @@ main section.first .add-section{
   color: #CED3D7;
   margin-bottom: 5px;
 }
+
+main section.second {
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+main section.second div {
+  margin-bottom: 20px;
+}
+
+main section.second .new-task {
+  display: inline-block;
+}
+
+.title-list {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.colored {
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+  color: white;
+  font-style: bold;
+}
+
+.colored.editorial {
+  background-color: #47ADF1;
+}
+
+#goals {
+  background-color: #9C72E4;
+}
+
+#recruiting {
+  background-color: #64C0A9;
+}
+
+#mobile {
+  background-color: #F29E33;
+}
+
+#website {
+  background-color: #D763A0;
+}
+
+#sales {
+  background-color: #B0C926;
+}
+
+.check {
+  color: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.cross {
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 2px;
+}
