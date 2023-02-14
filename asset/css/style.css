@@ -11,11 +11,15 @@ body {
 }
 
 header,main {
-  padding: 10px;
   background-color: white;
 }
 
-/*MAIN*/
+/*HEADER*/
+header {
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
 header .logo-box img {
   vertical-align: middle;
   margin-bottom: 10px;
@@ -27,3 +31,28 @@ header .logo-box #title {
   color: #041931;
 }
 
+/*MAIN*/
+main {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 40px;
+  border-radius: 5px;
+}
+
+main section.first div {
+  display: inline-block;
+  padding: 10px;
+  margin: 8px 2px 5px 0px;
+  border-radius: 5px;
+}
+
+main section.first .add-task{
+  background-color: #47ADF1;
+  border: 2px solid #47ADF1;
+  color: white;
+}
+main section.first .add-section{
+  border: 2px solid #CED3D7;
+  color: #CED3D7;
+  margin-bottom: 5px;
+}
