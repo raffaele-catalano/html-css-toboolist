@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -32,7 +32,7 @@ header #title {
 
 /*MAIN*/
 main {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ main section.first #add-section{
 
 main section.second {
   background-color: white;
-  padding-top: 30px;
+  padding-top: 10px;
   line-height: 30px;
   border-radius: 5px;
   color: #041931;
@@ -91,7 +91,6 @@ main section.second li .colored {
   border-radius: 10px;
   font-size: 12px;
   color: white;
-  font-style: bold;
   vertical-align: middle;
 }
 
@@ -123,12 +122,12 @@ main section.second li .check {
   color: green;
   border: 1px solid green;
   border-radius: 100%;
-  padding: 3px 5px;
+  padding: 2px 5px;
 }
 
 main section.second li .cross {
   color: red;
   border: 1px solid red;
   border-radius: 100%;
-  padding: 3px 5px;
+  padding: 2px 5px;
 }
