@@ -71,34 +71,25 @@ main section.second {
   color: #041931;
 }
 
-main section.second div {
+main section.second ul {
   margin: 8px 2px 20px 20px;
   line-height: 40px;
   padding-bottom: 15px;
-}
-
-main section.second .new-task {
-  display: inline-block;
-}
-
-main section.second .title-list {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-main section.second .content {
-  font-size: 20px;
-  vertical-align: middle;
 }
 
 main section.second li {
   list-style: none;
 }
 
+main section.second ul li h3::before {
+  content: '\25BE';
+  padding-right: 5px;
+}
+
 main section.second li .colored {
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 12px;
   color: white;
   font-style: bold;
   vertical-align: middle;
@@ -108,23 +99,23 @@ main section.second li .colored.editorial {
   background-color: #47ADF1;
 }
 
-main section.second li #goals {
+main section.second li .goals {
   background-color: #9C72E4;
 }
 
-main section.second li #recruiting {
+main section.second li .recruiting {
   background-color: #64C0A9;
 }
 
-main section.second li #mobile {
+main section.second li .mobile {
   background-color: #F29E33;
 }
 
-main section.second li #website {
+main section.second li .website {
   background-color: #D763A0;
 }
 
-main section.second li #sales {
+main section.second li .sales {
   background-color: #B0C926;
 }
 
