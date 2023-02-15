@@ -12,25 +12,27 @@ body {
 
 /*HEADER*/
 header {
-  padding: 10px;
-  margin-bottom: 40px;
+  padding: 10px 20px;
+  height: 70px;
   background-color: white;
+  margin-bottom: 40px;
 }
 
-header .logo-box img {
+header img#logo {
+  height: 100%;
   vertical-align: middle;
-  margin-bottom: 10px;
 }
 
-header .logo-box #title {
+header #title {
   font-size: 35px;
   font-weight: 800;
   color: #041931;
+  vertical-align: middle;
 }
 
 /*MAIN*/
 main {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -40,23 +42,25 @@ main section.first {
   border-radius: 5px;
 }
 
-main section.first div {
+main section.first .btn {
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-main section.first .add-task{
+main section.first #add-task{
   background-color: #47ADF1;
   border: 2px solid #47ADF1;
   color: white;
   margin-left: 20px;
 }
-main section.first .add-section{
+main section.first #add-section{
   border: 2px solid #CED3D7;
   color: #CED3D7;
+  background-color: white;
 }
 
 main section.second {
@@ -84,6 +88,7 @@ main section.second .title-list {
 
 main section.second .content {
   font-size: 20px;
+  vertical-align: middle;
 }
 
 main section.second li {
@@ -96,6 +101,7 @@ main section.second li .colored {
   font-size: 15px;
   color: white;
   font-style: bold;
+  vertical-align: middle;
 }
 
 main section.second li .colored.editorial {
